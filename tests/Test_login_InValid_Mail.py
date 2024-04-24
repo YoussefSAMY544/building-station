@@ -8,24 +8,24 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 @pytest.mark.usefixtures("setup")
-
-def test_login_with_invalid_email(driver):
+class Testloginwithinvalidemail:
+ def test_login_with_invalid_email(self):
 
     print("Test started: Logging in with an invalid email address")
 
     # Navigate to the website
     print("Navigating to the website...")
-    driver.get("https://staging-ksa-v2.build-station.com/sa-en")
+    #driver.get("https://staging-ksa-v2.build-station.com/sa-en")
 
     # Click on the login icon
     print("Clicking on the login icon...")
-    login_icon = WebDriverWait(driver, 10).until(
+    login_icon = WebDriverWait(self.driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="page"]/div[2]/nav[1]/div/ul/li[3]/a')))
     login_icon.click()
 
     # Wait for the login modal to appear
     print("Waiting for the login modal to appear...")
-    login_modal = WebDriverWait(driver, 10).until(
+    login_modal = WebDriverWait(self.driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//*[@id="Signin_modal"]/div/div')))
 
     # Click on the mail button
@@ -36,7 +36,7 @@ def test_login_with_invalid_email(driver):
 
     # Wait for the email modal to appear
     print("Waiting for the email modal to appear...")
-    email_modal = WebDriverWait(driver, 10).until(
+    email_modal = WebDriverWait(self.driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//*[@id="Signin-email_modal"]/div/div')))
 
     # Find the email field and enter the email address
@@ -53,7 +53,7 @@ def test_login_with_invalid_email(driver):
 
     # Wait for the error message to appear
     print("Waiting for the error message to appear...")
-    error_message = WebDriverWait(driver, 10).until(
+    error_message = WebDriverWait(self.driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//*[contains(text(), "* Please provide valid email address")]')))
 
     # Check if the error message contains the expected text
