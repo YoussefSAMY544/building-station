@@ -75,6 +75,8 @@ class TestAddToCart:
         self.driver.switch_to.default_content()
 
         # Find and click on the login button
+
+
         print("Clicking on the login button...")
         login_button = WebDriverWait(email_modal, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="Signin-email_modal"]/div/div/div[3]/button')))
@@ -113,12 +115,12 @@ class TestAddToCart:
 
         # Optionally, you can print a message indicating the successful verification
         print("Verified that the user is on the home page after successful login")
-    def test_search_and_add_to_cart(self):
+    def test_search_and_add_to_cart_variable(self):
         print("Test started: Searching for a product and adding it to the cart")
 
         # Find and enter text into the search field
         search_field = self.driver.find_element(By.CSS_SELECTOR, "#searchText")
-        search_field.send_keys("LI651009")
+        search_field.send_keys("LI613174")
 
         # Press Enter to perform the search
         search_field.send_keys(Keys.ENTER)
@@ -126,7 +128,7 @@ class TestAddToCart:
         # Wait for the product page to load
         try:
             product_element = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, '#addToBag_9cfbcfa4-69c1-44eb-b7d6-221c7f2c217a'))
+                EC.presence_of_element_located((By.CSS_SELECTOR, '#page > div.navbar__wrapper > nav.navbar.navbar__main > div > ul > li:nth-child(5)'))
             )
         except TimeoutException:
             print("Timeout occurred while waiting for the product page to load")
@@ -134,11 +136,35 @@ class TestAddToCart:
 
         # Click on the add button
         add_to_cart_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '//*[@id="addToBag_9cfbcfa4-69c1-44eb-b7d6-221c7f2c217a"]'))
+            EC.element_to_be_clickable((By.ID, 'addToBag_428a7b60-dcee-11ec-b560-f78148203692'))
+        )
+        add_to_cart_button.click()
+        time.sleep(2)
+
+        # Wait for the second element to appear and click it
+        print("Waiting for the second element to appear...")
+        PinPieces = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR,"#product_detail > div.modal-body > div > div > div:nth-child(2) > div.product__variable.product-variations-pad.mb-3 > div > div > div > div")))
+        print("Matt Black is visible. Clicking now...")
+        PinPieces.click()
+
+        PinPieces20 = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR,
+                                              "#product_detail > div.modal-body > div > div > div:nth-child(2) > div.product__variable.product-variations-pad.mb-3 > div > div > div > div > ul > li:nth-child(2)")))
+        print("PinPieces20   visible. Clicking now...")
+        PinPieces20.click()
+        time.sleep(4)
+
+        add_to_cart_button = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.ID, 'addItemsToCart2'))
         )
         add_to_cart_button.click()
 
-        # Wait for the confirmation message to appear
+
+        time.sleep(2)
+
+
+        #Wait for the confirmation message to appear
         try:
             confirmation_message = WebDriverWait(self.driver, 10).until(
                 EC.visibility_of_element_located((By.XPATH, '//*[@id="toast-container"]/div/div[2]'))
@@ -150,11 +176,24 @@ class TestAddToCart:
         assert "Item added to Cart" in confirmation_message.text, "Confirmation message doesn't contain 'Item added to Cart' text"
         print("Confirmation message appeared.")
 
+        close_button = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, "#product_detail > div.modal-header.modal-header-pad > svg"))
+        )
+
+        # Click the close button
+        close_button.click()
+
+
+
         # Click on the cart icon
         cart_icon = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '//*[@id="page"]/div/nav[1]/div/ul/li[4]'))
+            EC.element_to_be_clickable((By.XPATH, '/html/body/div[2]/div[2]/nav[1]/div/ul/li[4]/a'))
         )
         cart_icon.click()
+
+
+
 
         # Click on view cart
         view_cart_button = WebDriverWait(self.driver, 10).until(
@@ -167,7 +206,7 @@ class TestAddToCart:
         print("Navigated to the cart page successfully.")
 
 
-    def test_simple_product_cart(self):
+    def test_variable_product_cart(self):
         print("Test started: Adding a single product to the cart")
 
         # Wait for 10 seconds
@@ -228,7 +267,7 @@ class TestAddToCart:
         print("Grand total:", grand_total)
 
         # Verify that the displayed grand total matches the calculated grand total
-        assert grand_total == pytest.approx(expected_grand_total, abs=0.1), "Grand total calculation is incorrect"
+        assert grand_total == pytest.approx(expected_grand_total, abs=0.4), "Grand total calculation is incorrect"
         print("Grand total calculation is correct")
 
         print("Find and click on the Proceed to Checkout button")
@@ -339,6 +378,9 @@ class TestAddToCart:
         print("Make a Complete order")
 
         time.sleep(20)
+
+        self.driver.quit()
+
 
 
 

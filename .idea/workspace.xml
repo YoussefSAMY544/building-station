@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703d2c55-d567-4e39-95ea-a83a6b6a5d39" name="Changes" comment="build">
+      <change afterPath="$PROJECT_DIR$/tests/Test_Compete_Check_Out_Composite_visa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Test_compete_Check_Out_Variable_Visa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BuildStation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BuildStation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Test_login_InValid_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_login_InValid_Mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test_Compete_Check_Out _With_Visa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Compete_Check_Out _With_Visa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +32,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YoussefSAMY544"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YoussefSAMY544&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YoussefSAMY544/building-station.git",
-    "accountId": "2a148d7e-50b9-4b39-a3e2-1ce978a43149"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YoussefSAMY544/building-station.git&quot;,
+    &quot;accountId&quot;: &quot;2a148d7e-50b9-4b39-a3e2-1ce978a43149&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -54,70 +56,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for Test_Compete_Check_Out _With_Visa.TestAddToCart.test_login_with_email_and_otp.executor": "Run",
-    "Python tests.Python tests for Test_product_filtering_option.TestProductFiltering.test_proudct_filter_NOresult.executor": "Run",
-    "Python tests.Python tests for bf.test_open_website.executor": "Run",
-    "Python tests.Python tests in Test_ADDO.py.executor": "Run",
-    "Python tests.Python tests in Test_Add_Simple_Prouduct_to_Cart.py.executor": "Run",
-    "Python tests.Python tests in Test_Add_to_cart.py.executor": "Run",
-    "Python tests.Python tests in Test_Add_to_cart_popup_Home_Page.py.executor": "Run",
-    "Python tests.Python tests in Test_Compete_Check_Out _With_Visa.py.executor": "Run",
-    "Python tests.Python tests in Test_Function_Login_Mail.py.executor": "Run",
-    "Python tests.Python tests in Test_Mail_Valid_Subscribe..py.executor": "Run",
-    "Python tests.Python tests in Test_Mail_Valid_Subscribe.py.executor": "Run",
-    "Python tests.Python tests in Test_Switch _language.py.executor": "Run",
-    "Python tests.Python tests in Test_Variable_Prouduct.py.executor": "Run",
-    "Python tests.Python tests in Test_home_page_URL.py.executor": "Run",
-    "Python tests.Python tests in Test_login_InValid_Mail.py.executor": "Run",
-    "Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py.executor": "Run",
-    "Python tests.Python tests in Test_product_filtering_option.py.executor": "Run",
-    "Python tests.Python tests in bf.py.executor": "Run",
-    "Python tests.Python tests in test_Login_UI_English.py.executor": "Run",
-    "Python tests.Python tests in test_Login_ui_Arabic.py.executor": "Run",
-    "Python tests.Python tests in test_e2e.py.executor": "Run",
-    "Python tests.Python tests in tests.executor": "Run",
-    "Python.BaseClass.executor": "Run",
-    "Python.Change_Language.executor": "Run",
-    "Python.Extract_UI.executor": "Run",
-    "Python.Test_Mail_Valid_Subscribe..executor": "Run",
-    "Python.Test_Otp.executor": "Run",
-    "Python.Test_home_page_URL.executor": "Run",
-    "Python.Test_product_filtering_option.executor": "Run",
-    "Python.generate mail.executor": "Run",
-    "Python.generate_mail (1).executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "beta",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for Test_Compete_Check_Out _With_Visa.TestAddToCart.test_login_with_email_and_otp.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test_product_filtering_option.TestProductFiltering.test_proudct_filter_NOresult.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bf.test_open_website.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_ADDO.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Add_Simple_Prouduct_to_Cart.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Add_to_cart.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Add_to_cart_popup_Home_Page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Compete_Check_Out _With_Visa.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Compete_Check_Out_Composite_visa.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Function_Login_Mail.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Mail_Valid_Subscribe..py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Mail_Valid_Subscribe.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Switch _language.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Variable_Prouduct.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_compete_Check_Out_Variable_Visa.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_home_page_URL.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_login_InValid_Mail.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_product_filtering_option.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in bf.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Login_UI_English.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Login_ui_Arabic.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_e2e.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BaseClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Change_Language.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Extract_UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_Mail_Valid_Subscribe..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_Otp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_home_page_URL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_product_filtering_option.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_mail (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;beta&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Test_Otp">
-    <configuration name="Test_Otp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BuildStation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Test_Otp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in Test_Mail_Valid_Subscribe.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests in Test_compete_Check_Out_Variable_Visa.py">
+    <configuration name="Python tests in Test_Add_to_cart_popup_Home_Page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +110,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Mail_Valid_Subscribe.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Add_to_cart_popup_Home_Page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_home_page_URL.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_Compete_Check_Out _With_Visa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +125,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_home_page_URL.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Compete_Check_Out _With_Visa.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_login_InValid_Mail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_Compete_Check_Out_Composite_visa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,11 +140,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_login_InValid_Mail.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Compete_Check_Out_Composite_visa.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_newsletter_Invalid_EmailExists.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_Variable_Prouduct.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,24 +155,39 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_newsletter_Invalid_EmailExists.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Variable_Prouduct.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in Test_compete_Check_Out_Variable_Visa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BuildStation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_compete_Check_Out_Variable_Visa.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Test_Otp" />
-        <item itemvalue="Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py" />
-        <item itemvalue="Python tests.Python tests in Test_login_InValid_Mail.py" />
-        <item itemvalue="Python tests.Python tests in Test_Mail_Valid_Subscribe.py" />
-        <item itemvalue="Python tests.Python tests in Test_home_page_URL.py" />
+        <item itemvalue="Python tests.Python tests in Test_compete_Check_Out_Variable_Visa.py" />
+        <item itemvalue="Python tests.Python tests in Test_Add_to_cart_popup_Home_Page.py" />
+        <item itemvalue="Python tests.Python tests in Test_Variable_Prouduct.py" />
+        <item itemvalue="Python tests.Python tests in Test_Compete_Check_Out_Composite_visa.py" />
+        <item itemvalue="Python tests.Python tests in Test_Compete_Check_Out _With_Visa.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
