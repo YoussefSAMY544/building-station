@@ -1,0 +1,109 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"703d2c55-d567-4e39-95ea-a83a6b6a5d39\" name=\"Changes\" comment=\"build\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/BuildStation.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/BuildStation.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tests/Test_login_InValid_Mail.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tests/Test_login_InValid_Mail.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"YoussefSAMY544\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/YoussefSAMY544/building-station.git\",\r\n    \"accountId\": \"2a148d7e-50b9-4b39-a3e2-1ce978a43149\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2bGTqBC39guyj8OMPNsVAa8nmrt\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python tests.Python tests for Test_Compete_Check_Out _With_Visa.TestAddToCart.test_login_with_email_and_otp.executor\": \"Run\",\r\n    \"Python tests.Python tests for Test_product_filtering_option.TestProductFiltering.test_proudct_filter_NOresult.executor\": \"Run\",\r\n    \"Python tests.Python tests for bf.test_open_website.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_ADDO.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Add_Simple_Prouduct_to_Cart.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Add_to_cart.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Add_to_cart_popup_Home_Page.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Compete_Check_Out _With_Visa.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Function_Login_Mail.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Mail_Valid_Subscribe..py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Mail_Valid_Subscribe.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Switch _language.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_Variable_Prouduct.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_home_page_URL.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_login_InValid_Mail.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Test_product_filtering_option.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in bf.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test_Login_UI_English.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test_Login_ui_Arabic.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test_e2e.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in tests.executor\": \"Run\",\r\n    \"Python.BaseClass.executor\": \"Run\",\r\n    \"Python.Change_Language.executor\": \"Run\",\r\n    \"Python.Extract_UI.executor\": \"Run\",\r\n    \"Python.Test_Mail_Valid_Subscribe..executor\": \"Run\",\r\n    \"Python.Test_Otp.executor\": \"Run\",\r\n    \"Python.Test_home_page_URL.executor\": \"Run\",\r\n    \"Python.Test_product_filtering_option.executor\": \"Run\",\r\n    \"Python.generate mail.executor\": \"Run\",\r\n    \"Python.generate_mail (1).executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"beta\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Python.Test_Otp\">\r\n    <configuration name=\"Test_Otp\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"BuildStation\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/tests/Test_Otp.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests in Test_Mail_Valid_Subscribe.py\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"BuildStation\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/tests/Test_Mail_Valid_Subscribe.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests in Test_home_page_URL.py\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"BuildStation\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/tests/Test_home_page_URL.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests in Test_login_InValid_Mail.py\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"BuildStation\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/tests/Test_login_InValid_Mail.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests in Test_newsletter_Invalid_EmailExists.py\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"BuildStation\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/tests/Test_newsletter_Invalid_EmailExists.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.Test_Otp\" />\r\n        <item itemvalue=\"Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py\" />\r\n        <item itemvalue=\"Python tests.Python tests in Test_login_InValid_Mail.py\" />\r\n        <item itemvalue=\"Python tests.Python tests in Test_Mail_Valid_Subscribe.py\" />\r\n        <item itemvalue=\"Python tests.Python tests in Test_home_page_URL.py\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"703d2c55-d567-4e39-95ea-a83a6b6a5d39\" name=\"Changes\" comment=\"\" />\r\n      <created>1705840603965</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1705840603965</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"build\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705842499275</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705842499276</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"build\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"build\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py</url>\r\n          <line>17</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,10 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="703d2c55-d567-4e39-95ea-a83a6b6a5d39" name="Changes" comment="build">
+-      <change beforePath="$PROJECT_DIR$/.idea/BuildStation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BuildStation.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tests/Test_login_InValid_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_login_InValid_Mail.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/tests/Test_Function_Login_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Function_Login_Mail.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -94,7 +92,7 @@
+     "settings.editor.selected.configurable": "preferences.lookFeel"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="Python.Test_Otp">
++  <component name="RunManager" selected="Python tests.Python tests in Test_Function_Login_Mail.py">
+     <configuration name="Test_Otp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="BuildStation" />
+       <option name="ENV_FILES" value="" />
+@@ -117,7 +115,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests in Test_Mail_Valid_Subscribe.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests in Test_Add_Simple_Prouduct_to_Cart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="BuildStation" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -128,11 +126,11 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Mail_Valid_Subscribe.py&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Add_Simple_Prouduct_to_Cart.py&quot;" />
+       <option name="_new_targetType" value="&quot;PATH&quot;" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests in Test_home_page_URL.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests in Test_Add_to_cart_popup_Home_Page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="BuildStation" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -143,11 +141,11 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_home_page_URL.py&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Add_to_cart_popup_Home_Page.py&quot;" />
+       <option name="_new_targetType" value="&quot;PATH&quot;" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests in Test_login_InValid_Mail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="Python tests in Test_Function_Login_Mail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="BuildStation" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -158,7 +156,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_login_InValid_Mail.py&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Function_Login_Mail.py&quot;" />
+       <option name="_new_targetType" value="&quot;PATH&quot;" />
+       <method v="2" />
+     </configuration>
+@@ -179,11 +177,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python tests.Python tests in Test_Function_Login_Mail.py" />
++        <item itemvalue="Python tests.Python tests in Test_Add_to_cart_popup_Home_Page.py" />
++        <item itemvalue="Python tests.Python tests in Test_Add_Simple_Prouduct_to_Cart.py" />
+         <item itemvalue="Python.Test_Otp" />
+         <item itemvalue="Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py" />
+-        <item itemvalue="Python tests.Python tests in Test_login_InValid_Mail.py" />
+-        <item itemvalue="Python tests.Python tests in Test_Mail_Valid_Subscribe.py" />
+-        <item itemvalue="Python tests.Python tests in Test_home_page_URL.py" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -211,7 +209,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1705842499276</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="build">
++      <option name="closed" value="true" />
++      <created>1713971513342</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1713971513342</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
