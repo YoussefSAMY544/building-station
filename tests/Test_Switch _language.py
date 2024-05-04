@@ -6,24 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-@pytest.fixture(scope="class")
-def setup(request):
-    print("Setting up WebDriver...")
-    # Replace 'path_to_chromedriver' with the actual path to chromedriver.exe
-    service = Service()
-    driver = webdriver.Chrome(service=service)
-    driver.implicitly_wait(10)
-    driver.get("https://staging-ksa-v2.build-station.com/sa-en")
-    driver.maximize_window()
-    request.cls.driver = driver
-    yield driver
-    print("Quitting WebDriver...")
-    driver.quit()
-
-
+@pytest.mark.usefixtures("setup")
 class TestLanguageSelection:
 
-    @pytest.mark.usefixtures("setup")
     def test_language_selection(self):
         print("Test started: Language selection")
 

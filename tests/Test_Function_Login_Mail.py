@@ -27,7 +27,7 @@ class TestLogin:
         # Find and click on the login icon
         print("Clicking on the login icon...")
         login_icon = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "#page > div.navbar__wrapper > nav.navbar.navbar__main > div > ul > li:nth-child(4)")))
+            EC.element_to_be_clickable((By.XPATH, '//*[@id="page"]/div[2]/nav[1]/div/ul/li[3]/a')))
         login_icon.click()
 
         # Wait for the login modal to appear
