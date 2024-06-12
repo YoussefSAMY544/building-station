@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703d2c55-d567-4e39-95ea-a83a6b6a5d39" name="Changes" comment="Variable_Composite">
-      <change beforePath="$PROJECT_DIR$/.idea/BuildStation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BuildStation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learn Python in deep(OOP).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Group-admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Test_Wishlist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2024_10_13_AM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2024_10_13_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2024_10_13_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2024_10_13_AM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Test_Function_Login_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Function_Login_Mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Test_Switch _language.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Switch _language.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test_Compete_Check_Out_Composite_visa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Compete_Check_Out_Composite_visa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +79,30 @@
     &quot;Python tests.Python tests in Test_Mail_Valid_Subscribe.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_Switch _language.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_Variable_Prouduct.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_Wishlist.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test_api.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_compete_Check_Out_Variable_Visa.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_home_page_URL.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_login_InValid_Mail.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test_product_filtering_option.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in bf.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in conftest.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_Login_UI_English.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_Login_ui_Arabic.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_e2e.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_learn.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
     &quot;Python.BaseClass.executor&quot;: &quot;Run&quot;,
     &quot;Python.Change_Language.executor&quot;: &quot;Run&quot;,
     &quot;Python.Extract_UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Learn Python in deep(OOP) (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Learn Python in deep.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test_Mail_Valid_Subscribe..executor&quot;: &quot;Run&quot;,
     &quot;Python.Test_Otp.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test_home_page_URL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_learn (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_learn.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test_product_filtering_option.executor&quot;: &quot;Run&quot;,
     &quot;Python.generate mail.executor&quot;: &quot;Run&quot;,
     &quot;Python.generate_mail (1).executor&quot;: &quot;Run&quot;,
@@ -97,7 +113,27 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests in Test_Switch _language.py">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YoussefAbourabeh\PycharmProjects\BuildStation\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in Test_Wishlist.py">
+    <configuration name="Python tests in Test_Compete_Check_Out_Composite_visa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="BuildStation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Compete_Check_Out_Composite_visa.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in Test_Function_Login_Mail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
@@ -113,7 +149,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_Switch _language.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_Wishlist.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,11 +160,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Switch _language.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Wishlist.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_newsletter_Invalid_EmailExists.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,11 +175,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_api.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_newsletter_Invalid_EmailExists.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Test_compete_Check_Out_Variable_Visa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in conftest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BuildStation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,32 +190,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_compete_Check_Out_Variable_Visa.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in Test_login_InValid_Mail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="BuildStation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_login_InValid_Mail.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/conftest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in Test_Switch _language.py" />
+        <item itemvalue="Python tests.Python tests in Test_Wishlist.py" />
         <item itemvalue="Python tests.Python tests in Test_Function_Login_Mail.py" />
-        <item itemvalue="Python tests.Python tests in Test_login_InValid_Mail.py" />
-        <item itemvalue="Python tests.Python tests in Test_api.py" />
-        <item itemvalue="Python tests.Python tests in Test_compete_Check_Out_Variable_Visa.py" />
+        <item itemvalue="Python tests.Python tests in conftest.py" />
+        <item itemvalue="Python tests.Python tests in Test_Compete_Check_Out_Composite_visa.py" />
+        <item itemvalue="Python tests.Python tests in Test_newsletter_Invalid_EmailExists.py" />
       </list>
     </recent_temporary>
   </component>

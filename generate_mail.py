@@ -1,5 +1,7 @@
 import random
 import string
+from lib2to3.pgen2 import driver
+
 
 def generate_random_email():
     # Generate a random username with digits and lowercase letters
@@ -13,14 +15,6 @@ def generate_random_email():
 
 
 
-#from selenium.common.exceptions import StaleElementReferenceException
 
-#attempts = 0
-#while attempts < 3:
-    #try:
-        #element = driver.find_element_by_id('element_id')
-        #element.click()
-        #break
-    #except StaleElementReferenceException:
-        #attempts += 1
+
 

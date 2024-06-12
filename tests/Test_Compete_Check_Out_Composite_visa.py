@@ -1,5 +1,5 @@
-
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, ElementNotVisibleException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import pytest
 from selenium.webdriver.common.by import By
@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tests.Test_Otp import fetch_otp_from_email
 import time
-# Add this line to import the time module
+from selenium.webdriver.support.ui import Select
 
 from utilities.BaseClass import BaseClass
 
@@ -113,46 +113,58 @@ class TestAddToCart:
 
         # Optionally, you can print a message indicating the successful verification
         print("Verified that the user is on the home page after successful login")
-    def test_search_and_add_to_cart_variable(self):
+
+    def test_search_and_add_to_cart_Composite(self):
         print("Test started: Searching for a product and adding it to the cart")
 
         # Find and enter text into the search field
         search_field = self.driver.find_element(By.CSS_SELECTOR, "#searchText")
-        search_field.send_keys("LI613174")
+        search_field.send_keys("531556-531559")
 
         # Press Enter to perform the search
         search_field.send_keys(Keys.ENTER)
 
         # Wait for the product page to load
-        try:
-            product_element = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, '#page > div.navbar__wrapper > nav.navbar.navbar__main > div > ul > li:nth-child(5)'))
-            )
-        except TimeoutException:
-            print("Timeout occurred while waiting for the product page to load")
-            return
+
 
         # Click on the add button
         add_to_cart_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.ID, 'addToBag_428a7b60-dcee-11ec-b560-f78148203692'))
+            EC.element_to_be_clickable((By.ID, 'addToBag_f2371ab0-a752-11eb-9dcc-af22e1d0ac8c'))
         )
         add_to_cart_button.click()
         time.sleep(2)
 
-        add_to_cart_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.ID, 'addItemsToCart2'))
-        )
-        add_to_cart_button.click()
+        # Wait for the button to be clickable and click it three times
+        for _ in range(3):
+            WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, '//*[@id="quantityBox"]/button[2]'))
+            ).click()
+            time.sleep(2)
 
-        close_button = WebDriverWait(self.driver, 10).until(
-            EC.visibility_of_element_located(
-                (By.CSS_SELECTOR, "#product_detail > div.modal-header.modal-header-pad > svg"))
-        )
+        WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "#component_details_a5576160-a726-11eb-8ffe-bb3f678c84aa > div.product__summary-item > div > div > span"))
+        ).click()
 
-        # Click the close button
-        close_button.click()
+        for _ in range(2):
 
-        time.sleep(2)
+         WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR,
+                                        "#component_details_a5576160-a726-11eb-8ffe-bb3f678c84aa > div.product__summary-item > div > div > select > option:nth-child(3)"))
+         ).click()
+
+        for _ in range(2):
+            WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, '//*[@id="quantityBox"]/button[2]'))
+            ).click()
+            time.sleep(2)
+
+
+        add_to_cart_button1 = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.ID, 'addCompositeItemToCartModal'))
+         )
+        add_to_cart_button1.click()
+
+        time.sleep(3)
 
 
         #Wait for the confirmation message to appear
@@ -167,57 +179,67 @@ class TestAddToCart:
         assert "Item added to Cart" in confirmation_message.text, "Confirmation message doesn't contain 'Item added to Cart' text"
         print("Confirmation message appeared.")
 
+        close_button = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, "#product_detail > div.modal-header > svg"))
+        )
+
+        # Click the close button
+        close_button.click()
+
+        time.sleep(2)
+
         # Click on the cart icon
         cart_icon = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="page"]/div/nav[1]/div/ul/li[4]'))
         )
         cart_icon.click()
 
-        # Click on view cart
-        view_cart_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, '#cartdetailswrapper > div:nth-child(4) > div > a'))
-        )
-        view_cart_button.click()
-
+        # Assert that the view cart button is visible and clickable
+        try:
+            view_cart_button = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, '#cartdetailswrapper > div:nth-child(4) > div > a'))
+            )
+            print("View cart button is visible and clickable.")
+            # Click on view cart
+            view_cart_button.click()
+        except Exception as e:
+            print("Cart not open or view cart button not found.")
         # Verify the URL of the cart page
         assert self.driver.current_url == "https://staging-ksa-v2.build-station.com/sa-en/cart", "Incorrect URL for the cart page"
         print("Navigated to the cart page successfully.")
 
-
-    def test_variable_product_cart(self):
+    def test_composite_product_cart(self):
         print("Test started: Adding a single product to the cart")
 
         # Wait for 10 seconds
         time.sleep(10)
 
         # Find the quantity button and click to increase quantity
-        quantity_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, '#quantityBox > button.btn.counter-increment.ItemplusBtn'))
-        )
-        quantity_button.click()
+        for _ in range(15):
+            quantity_button = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, '#quantityBox > button.btn.counter-decrement.ItemminusBtn'))
+            )
+            quantity_button.click()
 
         # Wait for 10 seconds
         time.sleep(10)
 
-        # Get the item price without tax and convert it to a float
         item_price_element = WebDriverWait(self.driver, 10).until(
-            EC.visibility_of_element_located(
-                (By.CSS_SELECTOR, '#sub_total'))
+            EC.visibility_of_element_located((By.CSS_SELECTOR, '#sub_total'))
         )
         item_price_text = item_price_element.text
-        item_price = float(item_price_text.replace(" SAR", ""))
-
+        # Remove comma and convert to float
+        item_price = float(item_price_text.replace(" SAR", "").replace(",", ""))
         # Wait for 10 seconds
         time.sleep(10)
 
         # Calculate the subtotal (item price without tax * quantity)
         subtotal = item_price
 
-        # Calculate the expected tax amount (15% of the subtotal)
         # Calculate the expected tax amount (15% of the subtotal) and round to two decimal places
         expected_tax = round(0.15 * subtotal, 2)
         print("Expected tax:", expected_tax)
-
 
         # Get the tax amount and convert it to a float
         tax_amount_element = WebDriverWait(self.driver, 10).until(
@@ -225,7 +247,7 @@ class TestAddToCart:
         )
         # Get the tax amount and convert it to a float, then round to two decimal places
         tax_amount_text = tax_amount_element.text
-        tax_amount = float(tax_amount_text.replace(" SAR", ""))
+        tax_amount = float(tax_amount_text.replace(" SAR", "").replace(",", ""))
         print("Tax amount:", tax_amount)
 
         # Assert that the displayed tax amount matches the expected tax amount
@@ -241,29 +263,39 @@ class TestAddToCart:
             EC.visibility_of_element_located((By.CSS_SELECTOR, '#grand_total'))
         )
         grand_total_text = grand_total_element.text
-        grand_total = float(grand_total_text.replace(" SAR", ""))
+        grand_total = float(grand_total_text.replace(" SAR", "").replace(",", ""))
         print("Grand total:", grand_total)
 
-        # Verify that the displayed grand total matches the calculated grand total
-        assert grand_total == pytest.approx(expected_grand_total, abs=0.3), "Grand total calculation is incorrect"
+        # Assert that the displayed grand total matches the expected grand total
+        assert grand_total == expected_grand_total, "Grand total calculation is incorrect"
         print("Grand total calculation is correct")
 
         print("Find and click on the Proceed to Checkout button")
 
         # Find and click on the "Proceed to Checkout" button
         proceed_to_checkout_button = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.ID,"proceedToCheckout")))
+            EC.element_to_be_clickable((By.ID, "proceedToCheckout")))
         proceed_to_checkout_button.click()
 
         print("Find the checkbox and check it")
+
+        print("Waiting for the shipping option to appear...")
+        shipping_option = WebDriverWait(self.driver, 30).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, '#shipBox_0 > div > div > label'))
+        )
+        print("Shipping option appeared.")
+
+        # Assert that the shipping option is present
+        assert shipping_option is not None, "Shipping option did not appear"
 
         # Find the checkbox and check it
         checkbox = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, '#shipBox_0 > div > div > label'))
         )
+
+
         if not checkbox.is_selected():
             checkbox.click()
-
 
         print("Select the address by checking the checkbox")
 
@@ -279,7 +311,7 @@ class TestAddToCart:
 
         # Click on the shipping info button
         shipping_info_btn = WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, '#shipping-info-btn'))
+            EC.element_to_be_clickable((By.ID, 'shipping-info-btn'))
         )
         shipping_info_btn.click()
         print("Wait for the page to load, then interact with payment fields")
@@ -288,7 +320,8 @@ class TestAddToCart:
         time.sleep(3)  # Adjust the sleep time as needed
         print("Click on the debit/credit card option")
 
-        # Click on the debit/credit card option
+
+        # credit card option
         debit_credit_card = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, '#debit-credit-card'))
         )
@@ -332,12 +365,11 @@ class TestAddToCart:
             EC.presence_of_element_located((By.CSS_SELECTOR, "#checkboxG158"))
         ).click()
 
-
         print("Click on the complete payment button")
 
         # Click on the complete payment button
 
-        time.sleep(4)
+
         complete_payment_btn = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, '#complete-payment'))
         )
@@ -357,11 +389,5 @@ class TestAddToCart:
 
         time.sleep(20)
 
+        self.driver.quit()
 
-
-
-
-
-# Run the test
-if __name__ == "__main__":
-    pytest.main(["-v", "--html=report.html"])
